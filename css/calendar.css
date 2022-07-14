@@ -1,0 +1,41 @@
+.container {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 80px;
+    padding: 15px;
+    background-color: white;
+}
+.header_calendar{
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+th {
+    height: 30px;
+    text-align: center;
+}
+td {
+    height: 100px;
+}
+.attend{
+    background: lightgreen;
+}
+.today {
+    background: lightblue;
+}
+th:nth-of-type(1), td:nth-of-type(1) {
+    color: red;
+}
+th:nth-of-type(7), td:nth-of-type(7) {
+    color: blue;
+}
+.fa-circle-check, .fa-square-check{
+    color: green;
+}
+.fa-calendar-day{
+    color: blue;
+}
+.fa-circle-check, .fa-calendar-day{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
